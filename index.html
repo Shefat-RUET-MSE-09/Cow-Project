@@ -8,9 +8,9 @@
 body {
     margin: 0;
     overflow: hidden;
-    font-family: Arial;
 }
 
+/* Field */
 #field {
     width: 100vw;
     height: 100vh;
@@ -18,6 +18,7 @@ body {
     position: relative;
 }
 
+/* Cow */
 #cow {
     position: absolute;
     bottom: 50px;
@@ -26,10 +27,10 @@ body {
     cursor: pointer;
 }
 
-/* Mouth animation */
+/* Mouth */
 #mouth {
     position: absolute;
-    bottom: 110px;
+    bottom: 120px;
     left: 48%;
     width: 40px;
     height: 10px;
@@ -43,6 +44,7 @@ body {
     transform: scaleY(2);
 }
 
+/* Text */
 #textOutput {
     position: absolute;
     bottom: 300px;
@@ -59,8 +61,8 @@ body {
 
 <div id="field">
 
-    <!-- ✅ LOCAL IMAGE -->
-    <img id="cow" src="cow.jpg" alt="cow">
+    <!-- ✅ IMAGE -->
+    <img id="cow" src="Cow.jpg" alt="cow">
 
     <div id="mouth"></div>
     <div id="textOutput"></div>
